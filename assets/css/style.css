@@ -487,16 +487,16 @@ td, th {
 {
 
     .navbar-toggle {
-        position: relative;
-        float: right;
-        padding: 9px 10px;
-        margin-top: -70px;
-        margin-right: 15px;
-        margin-bottom: 8px;
-        background-image: none;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        background-color: #ffffff;
+        position: relative !important;
+        float: right !important;
+        padding: 9px 10px !important;
+        margin-top: -70px !important;
+        margin-right: 15px !important;
+        margin-bottom: 8px !important;
+        background-image: none !important;
+        border: 1px solid transparent !important;
+        border-radius: 4px ;
+        background-color: #ffffff !important;
     }
     #scrolling-links-set ul li{
         font-size: 30px;
