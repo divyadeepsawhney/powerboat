@@ -347,7 +347,10 @@ td, th {
 /* middle divider white section ends */
 
 /* watch video section starts */
-
+.video-bg-response{
+    background-color:#000000;
+    height:600px;
+}
 #video {
     position: relative;
     background: #000;
@@ -482,17 +485,44 @@ td, th {
 
 @media only screen and (min-width:350px) and (max-width:768px) 
 {
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: -70px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #ffffff;
+    }
+    #scrolling-links-set ul li{
+        font-size: 30px;
+    }
     #top-event-area-set{
         height: auto;
     }
     .event-date-info-set{
         text-align: center;
     }
+    .event-date-info-set img{
+        display: none;
+    }
     .event-date-info-set h1{
         margin-right: 0px;
     }
     .top-event-bg-set{
         width: auto;
+    }
+    .video-bg-response{
+        background-color:#000000;
+        height:auto;
+    }
+    .video-responsive-set{
+        height: 300px;
+        width: 100%;
     }
     .about-bg-set{
         height: 100%;
