@@ -33,7 +33,7 @@ body{margin:o auto;
 }
 #scrolling-links-set ul li a{
     text-decoration: none;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.83);
 
 }
 
@@ -68,7 +68,7 @@ body{margin:o auto;
     font-family: 'Open Sans Condensed', sans-serif;;
     font-weight: bold;
     float: left;
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 /* dynamic date section starts */
@@ -200,7 +200,7 @@ map-area-set{
 }
 .text-content-pad-set .text-content-about{
     color: #ffffff;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Gotham-Book Condensed';
     font-size: 16px;
 }
 /* map area starts */
@@ -256,11 +256,11 @@ td, th {
     padding: 3px;
     color: #ffffff;
     background-color: #313433;
-    font-size: 16px;
+    font-size: 13px;
     border: 1px solid #8A0304;
     text-align: left;
     border-top: none;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Gotham-Book Condensed';
 }
 @media 
     only screen and (max-width: 760px),
@@ -388,6 +388,7 @@ td, th {
 .parteners-bg-set{
     text-align: center;
     padding-top: 30px;
+    padding-left: 20px;
 }
 
 .parteners-title-set{
@@ -397,8 +398,8 @@ td, th {
     font-size: 40px;
 }
 .parteners-content-set{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 16px;
+    font-family: 'Gotham-Book Condensed';
+    font-size: 14px;
 }
 #parteners-list-set{
     text-align: center;
@@ -439,9 +440,9 @@ td, th {
     font-weight: bold;
 }
 .contact-us-bottom-content{
-    color: #ffffff;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 16px;
+    color: rgba(255, 255, 255, 0.83);
+    font-family: 'Gotham-Book Condensed';
+    font-size: 14px;
 }
 .bottom-icon-set{
     color: #ffffff;
@@ -453,9 +454,9 @@ td, th {
     margin-top:30px;
 }
 .bottom-contact-text-right{
-    color: #ffffff;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 16px;
+    color: rgba(255, 255, 255, 0.83);
+    font-family: 'Gotham-Book Condensed';
+    font-size: 14px;
 }
 #bottom-social-icons-set{
     margin-top: 30px;
@@ -481,16 +482,42 @@ td, th {
 
 @media only screen and (min-width:350px) and (max-width:768px) 
 {
-
-
+    #top-event-area-set{
+        height: auto;
+    }
+    .event-date-info-set{
+        text-align: center;
+    }
+    .event-date-info-set h1{
+        margin-right: 0px;
+    }
     .top-event-bg-set{
         width: auto;
     }
     .about-bg-set{
         height: 100%;
     }
+    .about-info-set{
+        margin-top: 0px;
+    }
+    .schedule-title-set{
+        float: none;
+    }
+    table{
+        float: none;
+        width: auto;
+    }
+
+    .parteners-img-set {
+        width: 100%;
+        height: 160px;
+    }
     .divider-strip-section-set{
         height: auto;
+    }
+    .divide-vertical-set{
+        margin-top: 0px;
+        display: none;
     }
     .contact-us-bg-set{
         height: auto;
