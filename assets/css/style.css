@@ -407,12 +407,14 @@ ul#example li span {
         margin-top: 50px;
     }
     
-  
+    .small-screen-color-text-set{
+        margin-left: 40px !important;
+    }
     .divide-red-text-set {
-        font-size: 30px;
+        font-size: 30px !important;
     }
     .divide-white-text-set {
-        font-size: 30px;
+        font-size: 30px !important;
     }
     .parteners-img-set{
         width: 100%;
@@ -461,6 +463,9 @@ ul#example li span {
     #scrolling-links-set ul li{
         font-size: 30px;
     }
+    .event-logo-position-set{
+        padding-top: 40px;
+    }
     #top-event-area-set{
         height: auto;
     }
@@ -473,12 +478,16 @@ ul#example li span {
     .event-date-info-set img{
         display: none;
     }
-    .event-date-info-set h1{
-        margin-right: 0px;
-        font-size: 42px;
+    .event-date-info-set h1 {
+        color: #73787D;
+        margin-top: -30px;
+        margin-left: 46px;
+        font-size: 45px !important;
     }
     .event-date-dynamic-set h1{
-        font-size: 42px;
+        font-size: 45px !important;
+        margin-top: -40px;
+        margin-left: -45    px;
     }
     .about-info-set .text-top{
         font-size: 30px !important;
@@ -489,7 +498,7 @@ ul#example li span {
         color: #7F7F7F;
     }
     .text-content-pad-set .text-content-about{
-        color: #7F7F7F;
+        color: #fffffF;
     }
     .small-screen-color-text-set{
         padding-bottom: 30px;
@@ -536,9 +545,14 @@ ul#example li span {
     .contact-us-bg-set{
         height: auto;
     }
-    .vertical-image-set{
-        text-align: -webkit-center;
-    }
+    
+    .vertical-image-set {
+            padding-top: 10px;
+            margin-left: -25px;
+            margin-top: 20px;
+            text-align: -webkit-center;
+        }
+
     .vertical-image-set img{
         -webkit-transform: rotate(90deg);
         margin-top: -45px;
