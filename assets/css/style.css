@@ -353,7 +353,7 @@ ul#example li span {
 /* responsive area starts */
 
 @media only screen and (min-width:768px)
-    and (max-width:992px)
+    and (max-width:1024px)
 { 
     #social-icons-top-set{
         float: left;
