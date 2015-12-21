@@ -262,7 +262,9 @@ ul#example li span {
     padding-top: 30px;
     padding-left: 20px;
 }
-
+.partner-top-set{
+    text-align: center;
+}
 .parteners-title-set{
     color: #439CD3;
     font-family: 'Open Sans Condensed', sans-serif;;
@@ -493,7 +495,7 @@ ul#example li span {
         text-align: center;
     }
     .event-title-top-set h2{
-        font-size: 30px;
+        font-size: 24px;
     }
     .event-date-info-set img{
         display: none;
@@ -502,19 +504,19 @@ ul#example li span {
         color: #73787D;
         margin-top: -30px;
         margin-left: 46px;
-        font-size: 45px !important;
+        font-size: 30px !important;
     }
     .event-date-dynamic-set h1{
-        font-size: 45px !important;
+        font-size: 30px !important;
         margin-top: -40px;
-        margin-left: -45    px;
+        margin-left: -45px;
     }
     .about-info-set .text-top{
-        font-size: 30px !important;
+        font-size: 28px !important;
         color: #7F7F7F;
     }
     .about-info-set .text-bottom{
-        font-size: 30px !important;
+        font-size: 28px !important;
         color: #7F7F7F;
     }
     .text-content-pad-set .text-content-about{
@@ -524,10 +526,10 @@ ul#example li span {
         padding-bottom: 30px;
     }
     .divide-red-text-set{
-        font-size: 14px;
+        font-size: 16px;
     }
     .divide-white-text-set{
-        font-size: 14px;
+        font-size: 16px;
     }
     .top-event-bg-set{
         width: auto;
@@ -549,12 +551,14 @@ ul#example li span {
     }
     .schedule-title-set{
         float: none;
+        font-size: 32px;
     }
     
     .parteners-img-set {
         width: 100%;
         height: 160px;
     }
+
     .divider-strip-section-set{
         height: auto;
     }
@@ -578,6 +582,17 @@ ul#example li span {
         margin-top: -45px;
         margin-bottom: -90px;
     }
+    .map-img-set{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .table-set{
+        margin-top: 10px;
+    }
+    .partner-top-set{
+        text-align: justify !important;
+    }
 }
+
 
 /* responsive area endss */
