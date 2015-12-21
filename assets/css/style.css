@@ -446,7 +446,7 @@ ul#example li span {
     }
     .map-top-area-set{
         text-align: -webkit-center;
-        margin-left: 60px;
+        margin-left: 60px !important;
     }
     .map-area-set img{
         float: initial;
