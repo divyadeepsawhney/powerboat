@@ -467,7 +467,7 @@ ul#example li span {
     }
     .parteners-img-set{
         width: 140px;
-        height: 100px;
+        height: 100px !important;
     }
     #parteners-list-set{
         margin-left: 0px;
