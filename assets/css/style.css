@@ -384,12 +384,16 @@ ul#example li span {
         width: 100%;
         padding-bottom: 40px;
     }
+    .event-logo-position-set img{
+        width: 260px;
+    }
     .event-date-info-set h1 {
         font-size: 40px;
     }
     .event-date-info-set img{
         height: 90px;
     }
+    
     .event-date-dynamic-set h1{
         font-size: 40px;
     }
@@ -465,6 +469,9 @@ ul#example li span {
     }
     .event-logo-position-set{
         padding-top: 40px;
+    }
+    .event-logo-position-set img{
+        width: 260px;
     }
     #top-event-area-set{
         height: auto;
