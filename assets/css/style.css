@@ -67,13 +67,18 @@ body{
 }
 .event-date-info-set h1{
     color: #D3DAE2;
-    font-size: 80px;
+    font-size: 65px;
     font-family: 'Open Sans Condensed', sans-serif;;
     font-weight: bold;
     float: left;
     margin-right: 90px;
 }
+.vertical-image-set{
+padding-top: 40px;
+}
+.vertical-image-set img{
 
+}
 /* dynamic date section starts */
 
 .event-date-dynamic-set{
@@ -81,7 +86,7 @@ body{
 }
 .event-date-dynamic-set h1{
     color: #D3DAE2;
-    font-size: 80px;
+    font-size: 65px;
     font-family: 'Open Sans Condensed', sans-serif;;
     font-weight: bold;
 }
@@ -183,56 +188,6 @@ ul#example li span {
 }
 
 /* schedule title section ends */
-
-/* table section starts */
-/*
-* { 
-    margin: 0; 
-    padding: 0; 
-}
-#page-wrap {
-    margin: 50px;
-}
-p {
-    margin: 20px 0; 
-}
-
-/* 
-Generic Styling, for Desktops/Laptops 
-*/
-
-/* table { 
-    border-collapse: collapse;
-    float: right;
-    width: 375px;
-    font-size: 12px;
-}
-/* Zebra striping */
-/*
-tr:nth-of-type(odd) { 
-    background: none;; 
-}
-th { 
-    background: #333; 
-    font-weight: bold; 
-    font-size: 16px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    width: 75px !important;
-}
-td, th { 
-    border-right: 1px solid #8A0304;
-    border-left: none !important;
-    padding: 0px !important;
-    color: #ffffff;
-    background-color: #313433;
-    font-size: 13px;
-    border: 1px solid #8A0304;
-    text-align: left;
-    border-top: none;
-    font-family: 'Gotham-Book Condensed';
-}
-*/
-/* table section ends */
 /* map area ends */
 
 
@@ -452,27 +407,7 @@ td, th {
         margin-top: 50px;
     }
     
-    /*
-    table{
-        border-collapse: collapse;
-        width: 100%;
-        font-size: 12px;
-    }
-
-    td, th {
-        border-right: 1px solid #8A0304;
-        border-left: none !important;
-        padding: 8px !important;
-        color: #ffffff;
-        background-color: #313433;
-        font-size: 11px;
-        border: 1px solid #8A0304;
-        text-align: left;
-        border-top: none;
-        font-family: 'Gotham-Book Condensed';
-    }
-    */
-
+  
     .divide-red-text-set {
         font-size: 30px;
     }
@@ -609,88 +544,6 @@ td, th {
         margin-top: -45px;
         margin-bottom: -90px;
     }
-}
-/*
-@media 
-    only screen and (max-width: 250px),
-    (min-device-width: 250px) and (max-device-width: 768px)
-    {
-        table{
-            float: left; 
-            width: 100%;
-        }
-        td, th {
-            border-right: 1px solid #8A0304;
-            border-left: none !important;
-            padding: 8px !important;
-            color: #ffffff;
-            background-color: #313433;
-            font-size: 11px;
-            border: 1px solid #8A0304;
-            text-align: -webkit-right;
-            border-top: none;
-            height: 25px;
-            font-family: 'Gotham-Book Condensed';
-        }
-
-}
-    @media 
-        only screen and (max-width: 760px),
-        (min-device-width: 768px) and (max-device-width: 1024px)  {
-
-            /* Force table to not be like tables anymore */
-           /* table, thead, tbody, th, td, tr { 
-                display: block; 
-
-            }
-
-            /* Hide table headers (but not display: none;, for accessibility) */
-        /*    thead tr { 
-                position: absolute;
-                color: #ffffff;
-                top: -9999px;
-                left: -9999px;
-            }
-
-            tr { border: 1px solid #ccc; }
-
-            td { 
-                /* Behave  like a "row" */
-          /*      border: none;
-                border-bottom: 1px solid #eee; 
-                color: #ffffff;
-                position: relative;
-                padding-left: 50%; 
-            }
-
-            td:before { 
-                /* Now like a table header */
-                position: absolute;
-                /* Top/left values mimic padding */
-            /*    top: 6px;
-                left: 6px;
-                color: #ffffff;
-                width: 45%; 
-                padding-right: 10px; 
-                white-space: nowrap;
-            }
-
-            /*
-            Label the data
-            */
-/*
-            td:nth-of-type(1):before { content: "First Name"; }
-            td:nth-of-type(2):before { content: "Last Name"; }
-            td:nth-of-type(3):before { content: "Job Title"; }
-            td:nth-of-type(4):before { content: "Favorite Color"; }
-            td:nth-of-type(5):before { content: "Wars of Trek?"; }
-            td:nth-of-type(6):before { content: "Porn Name"; }
-            td:nth-of-type(7):before { content: "Date of Birth"; }
-            td:nth-of-type(8):before { content: "Dream Vacation City"; }
-            td:nth-of-type(9):before { content: "GPA"; }
-            td:nth-of-type(10):before { content: "Arbitrary Data"; }
-        }
-
 }
 
 /* responsive area endss */
