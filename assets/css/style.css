@@ -130,50 +130,9 @@ ul#example li span {
     height: 900px;
     width: 100%;
 }
-.img-kil-set{
-    height: 40px !important;
-    top: 75px;
-    left: 255px;
-    position: absolute;
-    width: 80px !important;
-}
-.img-din-set{
-    height: 40px !important;
-    top: 335px;
-    left: 145px;
-    position: absolute;
-    width: 80px !important;
-}
-.img-bel-set{
-    height: 40px !important;
-    top: 90px;
-    left: 465px;
-    position: absolute;
-    width: 80px !important;
-}
-.img-dub-set{
-    height: 40px !important;
-    top: 255px;
-    left: 450px;
-    position: absolute;
-    width: 80px !important;
-}
-.img-cork-set{
-    height: 40px !important;
-    top: 360px;
-    left: 340px;
-    position: absolute;
-    width: 80px !important;
-}
 
-}
 
-map-area-set{
-    margin-top: 50px;
-}
-.map-area-set img{
-    width: 420px;
-    height: 500px;
+.map-img-set{
     float: right;
 }
 .about-info-set{
@@ -217,11 +176,16 @@ map-area-set{
     font-family: 'Open Sans Condensed', sans-serif;;
     font-weight: bold;
 }
-
+.table-set{
+    float: right;
+    width: 100%;
+    height: 320px;
+}
 
 /* schedule title section ends */
 
 /* table section starts */
+/*
 * { 
     margin: 0; 
     padding: 0; 
@@ -236,13 +200,15 @@ p {
 /* 
 Generic Styling, for Desktops/Laptops 
 */
-table { 
+
+/* table { 
     border-collapse: collapse;
     float: right;
     width: 375px;
     font-size: 12px;
 }
 /* Zebra striping */
+/*
 tr:nth-of-type(odd) { 
     background: none;; 
 }
@@ -265,7 +231,7 @@ td, th {
     border-top: none;
     font-family: 'Gotham-Book Condensed';
 }
-
+*/
 /* table section ends */
 /* map area ends */
 
@@ -428,8 +394,120 @@ td, th {
 
 
 /* responsive area starts */
-/
 
+@media only screen and (min-width:768px)
+    and (max-width:992px)
+{ 
+    #social-icons-top-set{
+        float: left;
+    }
+    #menu-item-list-set ul li{
+        margin-left: 0px !important;
+        display: inline-block;
+    }
+    #scrolling-links-set ul li a{
+        font-size: 13px;   
+    }
+
+    .navbar-toggle {
+        position: relative !important;
+        float: right !important;
+        padding: 9px 10px !important;
+        margin-top: -70px !important;
+        margin-right: 15px !important;
+        margin-bottom: 8px !important;
+        background-image: none !important;
+        border: 1px solid transparent !important;
+        border-radius: 4px ;
+        background-color: #ffffff !important;
+    }
+    .about-info-set {
+        margin-top: 210px;
+    }
+    .about-bg-set{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .event-date-info-set h1 {
+        font-size: 40px;
+    }
+    .event-date-info-set img{
+        height: 90px;
+    }
+    .event-date-dynamic-set h1{
+        font-size: 40px;
+    }
+    .about-info-set .text-top{
+        font-size: 36px;
+    }
+    .about-info-set .text-bottom{
+        font-size: 36px;
+    }
+    .schedule-title-set {
+        font-size: 24px;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    
+    /*
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    td, th {
+        border-right: 1px solid #8A0304;
+        border-left: none !important;
+        padding: 8px !important;
+        color: #ffffff;
+        background-color: #313433;
+        font-size: 11px;
+        border: 1px solid #8A0304;
+        text-align: left;
+        border-top: none;
+        font-family: 'Gotham-Book Condensed';
+    }
+    */
+
+    .divide-red-text-set {
+        font-size: 30px;
+    }
+    .divide-white-text-set {
+        font-size: 30px;
+    }
+    .parteners-img-set{
+        width: 100%;
+        height: 300px;
+    }
+    .contact-us-bottom-title{
+        font-size: 30px;
+    }
+    .contact-us-bottom-content{
+        font-size: 12px;
+    }
+    .bottom-contact-text-right{
+        font-size: 12px;
+    }
+    .link-email-set{
+        font-size: 12px !important;
+    }
+    .link-ph-set{
+        font-size: 12px;
+    }
+    .map-top-area-set{
+        text-align: -webkit-center;
+    }
+    .map-area-set img{
+        float: initial;
+    }
+    .bottom-icon-set{
+        font-size: 17px;
+    }
+}
 
 @media only screen and (min-width:250px) and (max-width:768px) 
 {
@@ -444,7 +522,6 @@ td, th {
         background-image: none !important;
         border: 1px solid transparent !important;
         border-radius: 4px ;
-        background-color: #ffffff !important;
     }
     #scrolling-links-set ul li{
         font-size: 30px;
@@ -455,11 +532,38 @@ td, th {
     .event-date-info-set{
         text-align: center;
     }
+    .event-title-top-set h2{
+        font-size: 30px;
+    }
     .event-date-info-set img{
         display: none;
     }
     .event-date-info-set h1{
         margin-right: 0px;
+        font-size: 42px;
+    }
+    .event-date-dynamic-set h1{
+        font-size: 42px;
+    }
+    .about-info-set .text-top{
+        font-size: 30px !important;
+        color: #7F7F7F;
+    }
+    .about-info-set .text-bottom{
+        font-size: 30px !important;
+        color: #7F7F7F;
+    }
+    .text-content-pad-set .text-content-about{
+        color: #7F7F7F;
+    }
+    .small-screen-color-text-set{
+        padding-bottom: 30px;
+    }
+    .divide-red-text-set{
+        font-size: 14px;
+    }
+    .divide-white-text-set{
+        font-size: 14px;
     }
     .top-event-bg-set{
         width: auto;
@@ -474,6 +578,7 @@ td, th {
     }
     .about-bg-set{
         height: 100%;
+        padding-bottom: 40px;
     }
     .about-info-set{
         margin-top: 0px;
@@ -481,11 +586,7 @@ td, th {
     .schedule-title-set{
         float: none;
     }
-   /* table{
-        float: none;
-        width: auto;
-    }
-*/
+    
     .parteners-img-set {
         width: 100%;
         height: 160px;
@@ -500,19 +601,51 @@ td, th {
     .contact-us-bg-set{
         height: auto;
     }
-    
+    .vertical-image-set{
+        text-align: -webkit-center;
+    }
+    .vertical-image-set img{
+        -webkit-transform: rotate(90deg);
+        margin-top: -45px;
+        margin-bottom: -90px;
+    }
+}
+/*
+@media 
+    only screen and (max-width: 250px),
+    (min-device-width: 250px) and (max-device-width: 768px)
+    {
+        table{
+            float: left; 
+            width: 100%;
+        }
+        td, th {
+            border-right: 1px solid #8A0304;
+            border-left: none !important;
+            padding: 8px !important;
+            color: #ffffff;
+            background-color: #313433;
+            font-size: 11px;
+            border: 1px solid #8A0304;
+            text-align: -webkit-right;
+            border-top: none;
+            height: 25px;
+            font-family: 'Gotham-Book Condensed';
+        }
+
+}
     @media 
         only screen and (max-width: 760px),
         (min-device-width: 768px) and (max-device-width: 1024px)  {
 
             /* Force table to not be like tables anymore */
-            table, thead, tbody, th, td, tr { 
+           /* table, thead, tbody, th, td, tr { 
                 display: block; 
 
             }
 
             /* Hide table headers (but not display: none;, for accessibility) */
-            thead tr { 
+        /*    thead tr { 
                 position: absolute;
                 color: #ffffff;
                 top: -9999px;
@@ -523,7 +656,7 @@ td, th {
 
             td { 
                 /* Behave  like a "row" */
-                border: none;
+          /*      border: none;
                 border-bottom: 1px solid #eee; 
                 color: #ffffff;
                 position: relative;
@@ -534,7 +667,7 @@ td, th {
                 /* Now like a table header */
                 position: absolute;
                 /* Top/left values mimic padding */
-                top: 6px;
+            /*    top: 6px;
                 left: 6px;
                 color: #ffffff;
                 width: 45%; 
@@ -545,6 +678,7 @@ td, th {
             /*
             Label the data
             */
+/*
             td:nth-of-type(1):before { content: "First Name"; }
             td:nth-of-type(2):before { content: "Last Name"; }
             td:nth-of-type(3):before { content: "Job Title"; }
