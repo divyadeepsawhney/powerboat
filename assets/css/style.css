@@ -391,14 +391,14 @@ ul#example li span {
         width: 260px !important;
     }
     .event-date-info-set h1 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .event-date-info-set img{
         height: 90px;
     }
 
     .event-date-dynamic-set h1{
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .about-info-set .text-top{
         font-size: 36px;
