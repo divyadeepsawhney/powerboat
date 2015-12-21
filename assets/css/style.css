@@ -589,6 +589,9 @@ ul#example li span {
     .table-set{
         margin-top: 10px;
     }
+    #parteners-list-set{
+        margin-left: -20px;
+    }
     .partner-top-set{
         text-align: justify !important;
     }
