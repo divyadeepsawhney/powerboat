@@ -67,7 +67,7 @@ body{
 }
 .event-date-info-set h1{
     color: #D3DAE2;
-    font-size: 65px;
+    font-size: 65px !important;
     font-family: 'Open Sans Condensed', sans-serif;;
     font-weight: bold;
     float: left;
@@ -86,7 +86,7 @@ padding-top: 40px;
 }
 .event-date-dynamic-set h1{
     color: #D3DAE2;
-    font-size: 65px;
+    font-size: 65px !important;
     font-family: 'Open Sans Condensed', sans-serif;;
     font-weight: bold;
 }
@@ -96,7 +96,7 @@ ul#example {
     padding: 0;
     display: block;
     text-align: center;
-}
+}                       
 
 ul#example li { display: inline-block; }
 
