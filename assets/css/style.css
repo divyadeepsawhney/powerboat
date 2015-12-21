@@ -504,10 +504,10 @@ ul#example li span {
         color: #73787D;
         margin-top: -30px;
         margin-left: 46px;
-        font-size: 30px;
+        font-size: 30px !important;
     }
     .event-date-dynamic-set h1{
-        font-size: 30px;
+        font-size: 30px !important;
         margin-top: -40px;
         margin-left: -45px;
     }
