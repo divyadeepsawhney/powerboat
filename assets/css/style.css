@@ -596,6 +596,7 @@ ul#example li span {
     }
     .map-img-set{
         margin-top: 20px;
+        float: left;
         margin-bottom: 30px;
     }
     .table-set{
