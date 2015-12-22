@@ -50,7 +50,6 @@ body{
     background-repeat: no-repeat;
     height: auto;
     width: 100%;
-    background-attachment: fixed;
     background-image: url(../Images/background-image-1v1.png);
 }
 .event-logo-position-set{
