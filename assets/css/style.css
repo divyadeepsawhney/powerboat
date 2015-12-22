@@ -551,7 +551,7 @@ ul#example li span {
         height:auto;
     }
     .video-responsive-set{
-        height: 300px;
+        height: auto;
         width: 100%;
     }
     .about-bg-set{
