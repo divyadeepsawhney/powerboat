@@ -600,6 +600,10 @@ ul#example li span {
     }
     .table-set{
         margin-top: 10px;
+        float: left !important;
+    }
+    .phone-note-set{
+        float: left;
     }
     #parteners-list-set{
         margin-left: -20px;
